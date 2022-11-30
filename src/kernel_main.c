@@ -8,7 +8,7 @@ void kmain(void)
 {   
     init_descriptor_tables();
 
-    outb(COM1, 'x');        
+    __asm__ volatile ("int $0x3");
 
     for(;;);
 
