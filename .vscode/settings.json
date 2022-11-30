@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "monitor.h": "c",
+        "descriptor_tables.h": "c"
+    }
+}
